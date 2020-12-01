@@ -22,6 +22,30 @@ def ganhosPorTipo(tipo, acertos, ganhos, jogo):
             ganhos = ganhos + 5
         else:
             print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+    elif tipo == 'lotomania':
+        if acertos == 20:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+            ganhos = ganhos +  6462616.45
+        elif acertos == 19:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+            ganhos = ganhos + 60614.89
+        elif acertos == 18:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+            ganhos = ganhos + 1789.45
+        elif acertos == 17:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+            ganhos = ganhos + 212.03
+        elif acertos == 16:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+            ganhos = ganhos + 41.45
+        elif acertos == 15:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+            ganhos = ganhos + 8.35
+        elif acertos == 0:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+            ganhos = ganhos + 181843.77
+        else:
+            print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
     elif tipo == 'megasena':
         if acertos == 6:
             print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
@@ -34,6 +58,7 @@ def ganhosPorTipo(tipo, acertos, ganhos, jogo):
             ganhos = ganhos + 759
         else:
             print("Resultado do %d° jogo acertou %d" % (jogo, acertos))
+
     return ganhos
 
 
